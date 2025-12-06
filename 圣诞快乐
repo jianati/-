@@ -1,10 +1,10 @@
-<!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-<meta charset="UTF-8">
+<!文档类型html >
+< html lang="zh-CN " >
+< head >
+< meta charset="UTF-8 " >
 <元名称=视口内容=宽度=设备宽度，初始尺度=1.0“>
-    <title>动态爱心粒子</title>
-<style>
+<标题>动态爱心粒子</title >
+<风格>
 身体 {
 边距:0；
 填充物:0；
@@ -14,18 +14,18 @@
 画布 {
 显示:块；
         }
-</style>
-</head>
-<body>
-<canvas id="heartCanvas"></canvas>
+</style >
+</head >
+<正文>
+< canvas id = " heart canvas " > </canvas >
 <脚本>
-        // 获取画布（Canvas）元素和上下文
-canvas = document.getElementById（'heartCanvas'）；
-const ctx = canvas.getContext（'2d'）；
+// 获取画布(画布)元素和上下文
+canvas = document . getelementbyid(' heart canvas ')；
+const CTX = canvas . get context(' 2d ')；
         
-        // 设置画布（Canvas）尺寸为窗口大小
+// 设置画布(画布)尺寸为窗口大小
 函数调整大小（）{
-canvas.width = window.innerWidth；
+canvas . width = window . inner width；
 画布高度 = 窗口内高度；
         }
 调整画布大小（）；
